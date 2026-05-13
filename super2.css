@@ -235,6 +235,39 @@ h2 {
     transition: transform 0.3s ease;
 }
 
-.trans-img:hover { 
+.trans-img:hover {
     transform: translateY(-14px) scale(1.05);
+}
+
+.faq-header {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 0;
+    text-align: left;
+    color: #60a5fa;
+}
+
+.faq-chevron {
+    transition: transform 0.3s ease;
+}
+
+.faq-item.open .faq-chevron {
+    transform: rotate(180deg);
+}
+
+.faq-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.faq-item.open .faq-body {
+    max-height: 600px;
 }
