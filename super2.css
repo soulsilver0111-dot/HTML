@@ -107,11 +107,26 @@ h5 {
     text-transform: uppercase;
 }
 
-.degradado {
+.degradado-1 {
     border: 0;
     height: 18px;
     background: linear-gradient(to right, #5290f3, #7034fb);
     margin: 45px 0;
+}
+
+.degradado-2 {
+    border: 0;
+    height: 18px;
+    background: linear-gradient(to right, #5290f3, #2bf96c);
+    margin: 45px 0;
+}
+
+.degradado-2-T {
+        background: linear-gradient(to right, #5290f3, #2bf96c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .texto {
