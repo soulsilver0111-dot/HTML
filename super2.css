@@ -1,11 +1,12 @@
 /* Decoracion de la pagina */
 
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 /* <-- alinear texto */
 h1,
 h2,
-p {
-    font-family: 'Comic Sans MS', cursive;
+body {
+    font-family: 'Rethink Sans', sans-serif;
     text-decoration: wavy;
     text-align: center !important;
     margin-bottom: 20px;
@@ -21,11 +22,6 @@ p {
 .hero h1,
 .hero h2 {
     font-size: 49px;
-    /* <-- sombra del texto */
-    position: relative;
-    z-index: 1;
-    text-shadow: 2px 2px 5px rgb(14, 153, 228);
-
 }
 
 /* añadir margen */
@@ -34,22 +30,10 @@ body {
 
 }
 
-h3 {
-    font-size: 30px;
-    /* <-- tamaño */
-    color: #60a5fa;
-    /* <-- color */
-    text-decoration: underline;
-}
-
-h4 {
-    font-size: 25px;
-    color: #60a5fa;
-}
-
-h5 {
+.Haches {
     font-size: 40px;
     color: #60a5fa;
+    text-align: left;
 }
 
 .barra {
@@ -81,7 +65,7 @@ h5 {
 }
 
 .barra-links a {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Rethink Sans', sans-serif;
     display: block;
     padding: 0 12px;
     font-size: 20px;
@@ -114,6 +98,14 @@ h5 {
     margin: 45px 0;
 }
 
+.degradado-1-T {
+    background: linear-gradient(to right, #5290f3, #7034fb);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
 .degradado-2 {
     border: 0;
     height: 18px;
@@ -122,7 +114,7 @@ h5 {
 }
 
 .degradado-2-T {
-        background: linear-gradient(to right, #5290f3, #2bf96c);
+    background: linear-gradient(to right, #5290f3, #2bf96c);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -130,8 +122,9 @@ h5 {
 }
 
 .texto {
-    font-size: 20px;
+    font-size: 22px;
     color: #f3f4f6;
+    text-align: left;
 }
 
 .imagen-boton {
@@ -203,9 +196,6 @@ h2 {
     box-shadow: 0 12px 30px rgba(225, 29, 138, 0.12);
 }
 
-.btn {
-    background: linear-gradient(90deg, #ec4899, #3b82f6);
-}
 
 .trans {
     text-align: left !important;
@@ -233,7 +223,7 @@ h2 {
 
 .trans-text {
     flex: 1;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .trans-item img {
@@ -259,7 +249,7 @@ h2 {
     border: none;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
