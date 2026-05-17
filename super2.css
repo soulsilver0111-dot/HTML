@@ -27,7 +27,6 @@ body {
 /* añadir margen */
 body {
     margin: 40px;
-
 }
 
 .Haches {
@@ -49,8 +48,8 @@ body {
 
 /* Logo */
 .logo-de-barra {
-    background: #161287;
-    color: #e47621;
+    background: #d4d3eb;
+    color: #53aa40;
     font-size: 20px;
     font-weight: 900;
     padding: 2px 7px;
@@ -142,23 +141,11 @@ body {
 section {
     position: relative;
     text-align: center;
-    height: 400px;
+    height: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     opacity: 10;
-}
-
-.fondo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 900px;
-    opacity: 0.5;
-    z-index: 0;
-    opacity: 0.9;
 }
 
 * {
